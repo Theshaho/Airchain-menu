@@ -1,4 +1,12 @@
 #!/bin/bash
+FILE=/root/res.sh
+if test -f "$FILE"; then
+    echo "$FILE exists."
+elif
+   current_dir=$(pwd)
+   cp $(pwd)/res.sh /root/res.sh
+fi
+
 clear
 
  cat << "EOF"
