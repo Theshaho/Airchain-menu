@@ -21,7 +21,7 @@ change premission for copied file too
 ```
 chmod +x root/res.sh
 ```
-run the menu and choose your option
+if you already used the script once, for next times just run the menu and choose your option
 
 ```
 ./res.sh
