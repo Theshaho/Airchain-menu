@@ -12,6 +12,10 @@ change premission
 ```
 chmod +x res.sh
 ```
+run the script
+```
+/.res.bash
+```
 it will copy itself to root desktop so that for next uses you don't have to go to Airchain-menu direcotory.
 change premission for copied file too
 ```
