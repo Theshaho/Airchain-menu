@@ -2,7 +2,7 @@
 FILE=/root/res.sh
 if test -f "$FILE"; then
     echo "$FILE exists."
-elif
+else
    cp $(pwd)/res.sh /root/res.sh
 fi
 
